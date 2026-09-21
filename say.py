@@ -21,9 +21,9 @@ TELEGRAM_CHAT_ID = "ВАШ_ID_ЧАТА"
 
 def send_telegram_message(text):
     if TELEGRAM_TOKEN and TELEGRAM_CHAT_ID:
-        url = f"https://telegram.org{TELEGRAM_TOKEN}/sendMessage"
+        url = f"https://telegram.org{8837607251}/sendMessage"
         try:
-            requests.post(url, json={"chat_id": TELEGRAM_CHAT_ID, "text": text})
+            requests.post(url, json={"chat_id": AAEFPt5r48O8KrcqDoXzxBn630tGgM-s98s, "text": text})
         except:
             pass
 
